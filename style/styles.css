@@ -452,6 +452,12 @@ footer {
     overflow: hidden;
     top: 108%;
     right: 5%;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+
+.dropdown-menu-height {
+    max-height: 450px;
 }
 
 .userProfile a {
