@@ -355,3 +355,82 @@ nav {
     width: 20px;
     margin-right: 10px;
 }
+
+.newsfeed {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+
+#date-time {
+    font-size: 13px;
+    color: #9a9a9a;
+}
+
+.post-text {
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+#hashtag {
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.activity-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icon {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.icon-container div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.profile-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post-row  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-row a{
+    color: #9a9a9a;
+}
+
+.load-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #1876f2;
+    color: #fff;
+    background: #1876f2;
+    border-radius: 20px;
+}
