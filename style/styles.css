@@ -585,3 +585,42 @@ footer {
     border-radius: 50%;
     margin-top: 12px;
 }
+
+.right-column {
+    text-align: right;
+}
+
+.add-friend, .message-button {
+    background: #1876f2;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.add-friend {
+    background: #e4e6eb;
+    color: #000;
+}
+
+.add-friends-icon, .message-icon {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.right-column a {
+    background: var(--bg-color);
+    border-radius: 3px;
+    padding: 12px;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.right-column a img {
+    width: 20px;
+}
