@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/styles.css">
+        <title>Profile</title>
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+
+            <div class="left-nav">
+
+                <img src="./images/logo.png" alt="logo" id="logo">
+                <ul>
+                    <li><img src="./images/notification.png" alt="notification icon" id="notification-icon"></li>
+                    <li><img src="./images/inbox.png" alt="inbox icon" id="inbox-icon"></li>
+                    <li><img src="./images/video.png" alt="video icon" id="video-icon"></li>
+                </ul>
+
+            </div>
+
+            <div class="right-nav">
+
+                <div class="search-box">
+                    <img src="./images/search.png" alt="search icon" id="search-icon">
+                    <input type="text" name="searchbox" id="search-bar" placeholder="Search">
+                </div>
+
+                <div class="user-icon online" onclick="settingsMenu()">
+                    <img src="./images/profile-pic.png" alt="profile picture" id="profile-pic">
+                </div>
+
+            </div>
+
+            <!-- Dropdown Menu-->
+
+            <div class="dropdown-menu">
+
+                <div id="dark-btn" >
+                    <span></span>
+                </div>
+
+                <div class="inner-dropdown">
+
+                    <div class="userProfile">
+
+                        <img src="./images/profile-pic.png" alt="profile picture" id="profile-icon">
+                        <div>
+                            <p>Christopher Argent</p>
+                            <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="userProfile">
+                        <img src="./images/feedback.png" alt="feedback icon" class="dropdown-icon">
+                        
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the site</a>
+                        
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="setting-links">
+                        <img src="./images/setting.png" alt="setting icon" class="dropdown-icon">
+                        <a href="#">Settings & Privacy <img src="./images/arrow.png" width="10px" alt="arrow icon"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="./images/help.png" alt="help icon" class="dropdown-icon">
+                        <a href="#">Help & Support <img src="./images/arrow.png" width="10px" alt="arrow icon"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="./images/display.png" alt="display icon" class="dropdown-icon">
+                        <a href="#">Display & Accessibility <img src="./images/arrow.png" width="10px" alt="arrow icon"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="./images/logout.png" alt="logout icon" class="dropdown-icon">
+                        <a href="#"> Logout <img src="./images/arrow.png" width="10px" alt="arrow icon"></a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </nav>
+
+        <!-- Profile-->
+
+        <div class="profile-container">
+
+            <img src="./images/cover.png" alt="Cover Picture" id="cover-img">
+
+            <div class="profile-details">
+
+                <div class="left-column">
+
+                    <div class="row">
+
+                        <img src="./images/profile.png" alt="Profile Picture" class="profile-picture">
+
+                        <div class="user-details">
+
+                            <h3 class="username">Peter Hale</h3>
+                            <p class="details">120 Friends - 20 Mutual</p>
+                            <img src="./images/member-1.png" alt="Allison Argent" class="mutual-friend-img">
+                            <img src="./images/member-2.png" alt="Scott McCall" class="mutual-friend-img">
+                            <img src="./images/member-3.png" alt="Malia Hale" class="mutual-friend-img">
+                            <img src="./images/member-5.png" alt="Derek Hale" class="mutual-friend-img">
+                        
+                        </div>
+                    
+                    </div>
+                
+                </div>
+
+                <div class="right-column"></div>
+            
+            </div>
+        
+        </div>
+        
+        <footer>
+            <p>Copyright 2023 - Socialbook</p>
+        </footer>
+        <script src="./script/script.js"></script>
+    </body>
+</html>
