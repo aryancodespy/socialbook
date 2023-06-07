@@ -536,3 +536,52 @@ footer {
     padding-left: 23px;
     background: #6bfa29;
 }
+
+/*Profile Page*/
+
+.profile-container {
+    padding: 20px 15%;
+    color: #626262;
+}
+
+#cover-img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.profile-details {
+    background-color: var(--bg-color);
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-picture {
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 15%;
+
+}
+
+.username {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.details {
+    font-size: 13px;
+}
+
+.mutual-friend-img {
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
