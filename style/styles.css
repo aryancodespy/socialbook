@@ -624,3 +624,18 @@ footer {
 .right-column a img {
     width: 20px;
 }
+
+.profile-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-column {
+    flex-basis: 33%;
+}
+
+.post-column {
+    flex-basis: 65%;
+}
