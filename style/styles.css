@@ -9,12 +9,14 @@
     --body-color: #efefef;
     --nav-color: #1876f2;
     --bg-color: #fff;
+    --text-color: #626262;
 }
 
 .dark-theme {
     --body-color: #0a0a0a;
     --nav-color: #000;
-    --bg-color: #000;   
+    --bg-color: #000;  
+    --text-color: #fafafa; 
 }
 
 body {
@@ -117,7 +119,7 @@ nav {
     background: var(--bg-color);
     padding: 20px;
     border-radius: 4px;
-    color: #626262;
+    color: var(--text-color);
 }
 
 .main-content {
@@ -129,7 +131,7 @@ nav {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    color: #626262;
+    color: var(--text-color);
     width: fit-content;
 }
 
@@ -154,7 +156,7 @@ nav {
 
 .shortcut-links p {
     margin: 25px 0;
-    color: #626262;
+    color: var(--text-color);
     font-weight: 500;
 }
 
@@ -310,7 +312,7 @@ nav {
      background: var(--bg-color);
      border-radius: 6px;
      padding: 20px;
-     color: #626262;
+     color: var(--text-color);
 }
 
 .userProfile {
@@ -333,7 +335,7 @@ nav {
 #privacy {
     background: transparent;
     border: 0;
-    color: #626262;
+    color: var(--text-color);
     font-size: 12px;
 }
 
@@ -359,7 +361,7 @@ nav {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #626262;
+    color: var(--text-color);
     margin-right: 30px;
     font-size: 13px;
 }
@@ -374,7 +376,7 @@ nav {
     background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
-    color: #626262;
+    color: var(--text-color);
     margin: 20px 0;
 }
 
@@ -384,7 +386,7 @@ nav {
 }
 
 .post-text {
-    color: #9a9a9a;
+    color: var(--text-color);
     margin: 15px 0;
     font-size: 15px;
 }
@@ -480,7 +482,7 @@ footer {
 }
 
 .userProfile p {
-    color: #626262;
+    color: var(--text-color);
 }
 
 .inner-dropdown {
@@ -512,7 +514,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    color: #626262;
+    color: var(--text-color);
 }
 
 #dark-btn {
@@ -545,7 +547,7 @@ footer {
 
 .profile-container {
     padding: 20px 15%;
-    color: #626262;
+    color: var(--text-color);
 }
 
 #cover-img {
