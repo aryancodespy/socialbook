@@ -727,3 +727,71 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+/*Media Queries For Homepage*/
+
+@media (max-width: 900px) {
+    .right-sidebar,
+    .left-sidebar,
+    .search-box {
+        display: none;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    #logo {
+        width: 110px;
+        margin: 0 15px;
+    }
+
+    #notification-icon,
+    #inbox-icon,
+    #video-icon {
+        width: 20px;
+        margin: 0 8px;
+    }
+
+    #profile-pic {
+        width: 35px;
+    }
+
+    .user-icon {
+        margin: 0 15px;
+    }
+
+    .media-buttons a{
+        flex-wrap: wrap;
+        margin-right: 10px;
+        font-size: 8px;
+    }
+
+    .media-icon {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .post-container {
+        padding-left: 0;
+    }
+
+    .main-content {
+        flex-basis: 100%;
+    }
+
+    .story img {
+        width: 30px;
+        border-width: 3px;
+    }
+
+    .story p {
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    #plus-icon {
+        width: 20px;
+        bottom: 30px;
+    }
+}
