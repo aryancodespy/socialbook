@@ -479,6 +479,10 @@ footer {
     text-decoration: none;
 }
 
+.userProfile p {
+    color: #626262;
+}
+
 .inner-dropdown {
     padding: 20px;
 }
